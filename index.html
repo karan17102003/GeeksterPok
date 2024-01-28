@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeeksterMon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="show()">
+    <section>
+      <h1 class="main-heading">GeeksterPok</h1>
+      <div class="allbtn">
+        <select
+          name=""
+          id="pokemonselect"
+          aria-placeholder="Select"
+          class="btn5"
+        ></select>
+        <button id="fillerbtn" class="btn5">filter by type</button>
+        <button id="reset" class="btn5">reset</button>
+      </div>
+    </section>
+    <div class="srh-input">
+      <input type="text" id="inp" placeholder="Enter pokemon name" />
+    </div>
+    <div id="mainbox"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
